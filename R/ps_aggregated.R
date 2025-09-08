@@ -19,10 +19,10 @@
 #' a quartile variable dividing the durations of the segments in quartiles is calculated.
 #' @param grouping [`character`] (default `"start"`): The timestamps, `"start"` or `"complete"`, which are binned in the histogram.
 #' @param bins [`numeric`] (default `30`): The number of bins in the aggregated performance spectrum.
-#' @param scale [`ggplot2`] scale function (default [`scale_fill_discrete_bupaR`][`bupaR::scale_fill_discrete_bupaR`]):
+#' @param scale [`ggplot2`][`ggplot`] scale function (default [`scale_fill_discrete_bupaR`][`bupaR::scale_fill_discrete_bupaR`]):
 #' Set color scale. Defaults to [`scale_fill_discrete_bupaR`][`bupaR::scale_fill_discrete_bupaR`]. 
 #' 
-#' @return A [`ggplot2`] object describing the aggregated performance spectrum.
+#' @return A [`ggplot2`][`ggplot`] object describing the aggregated performance spectrum.
 #'
 #' @seealso [`ps_detailed()`]
 #'

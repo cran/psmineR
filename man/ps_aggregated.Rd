@@ -53,13 +53,13 @@ a quartile variable dividing the durations of the segments in quartiles is calcu
 
 \item{grouping}{\code{\link{character}} (default \code{"start"}): The timestamps, \code{"start"} or \code{"complete"}, which are binned in the histogram.}
 
-\item{scale}{\code{\link{ggplot2}} scale function (default \code{\link[bupaR:scale_fill_discrete_bupaR]{scale_fill_discrete_bupaR}}):
+\item{scale}{\code{\link[ggplot2:ggplot]{ggplot2}} scale function (default \code{\link[bupaR:scale_fill_discrete_bupaR]{scale_fill_discrete_bupaR}}):
 Set color scale. Defaults to \code{\link[bupaR:scale_fill_discrete_bupaR]{scale_fill_discrete_bupaR}}.}
 
 \item{bins}{\code{\link{numeric}} (default \code{30}): The number of bins in the aggregated performance spectrum.}
 }
 \value{
-A \code{\link{ggplot2}} object describing the aggregated performance spectrum.
+A \code{\link[ggplot2:ggplot]{ggplot2}} object describing the aggregated performance spectrum.
 }
 \description{
 Plots the aggregated performance spectrum. The performance spectrum describes the event data in terms of segments, i.e.,

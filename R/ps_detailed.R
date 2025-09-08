@@ -5,12 +5,12 @@
 #' pairs of related process steps. The performance of each segment is measured and plotted for any occurrences of this segment
 #' over time and can be classified, e.g., regarding the overall population. The detailed performance spectrum visualises
 #' variability of durations in a segment across cases and time (Denisov _et al._, 2018). See **References** for more details.
-#' @param scale [`ggplot2`] scale function (default [`scale_color_discrete_bupaR`][`bupaR::scale_color_discrete_bupaR`]):
+#' @param scale [`ggplot2`][`ggplot`] scale function (default [`scale_color_discrete_bupaR`][`bupaR::scale_color_discrete_bupaR`]):
 #' Set color scale. Defaults to [`scale_color_discrete_bupaR`][`bupaR::scale_color_discrete_bupaR`]. 
 #' 
 #' @inherit ps_aggregated params references
 #'
-#' @return A [`ggplot2`] object describing the detailed performance spectrum.
+#' @return A [`ggplot2`][`ggplot`] object describing the detailed performance spectrum.
 #'
 #' @seealso [`ps_aggregated()`]
 #'

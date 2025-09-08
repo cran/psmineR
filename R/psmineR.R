@@ -1,7 +1,7 @@
 #' @title psmineR
 #' @description Performance Spectrum Miner For Event Data
 #'
-#' @docType package
+# @docType package
 #' @name psmineR
 
 ## usethis namespace: start

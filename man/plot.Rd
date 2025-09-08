@@ -16,7 +16,7 @@
 \item{...}{Additional variables to pass further.}
 }
 \value{
-A \code{\link{ggplot2}} object, which can be customised further.
+A \code{\link[ggplot2:ggplot]{ggplot2}} object, which can be customised further.
 }
 \description{
 Visualize performance spectrum.

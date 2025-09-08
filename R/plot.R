@@ -5,7 +5,7 @@
 #' @param x Object of class [`ps_aggregated()`] or [`ps_detailed()`].
 #' @param ... Additional variables to pass further.
 #'
-#' @return A [`ggplot2`] object, which can be customised further.
+#' @return A [`ggplot2`][`ggplot`] object, which can be customised further.
 
 
 #' @name plot

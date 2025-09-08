@@ -45,11 +45,11 @@ If \code{\link{NULL}} (default) when \code{log} is a \code{\link[bupaR:grouped_l
 If \code{\link{NULL}} (default) or \code{"quartile"} when \code{log} is an \code{\link[bupaR:eventlog]{eventlog}} or \code{\link[bupaR:activitylog]{activitylog}},
 a quartile variable dividing the durations of the segments in quartiles is calculated.}
 
-\item{scale}{\code{\link{ggplot2}} scale function (default \code{\link[bupaR:scale_fill_discrete_bupaR]{scale_color_discrete_bupaR}}):
+\item{scale}{\code{\link[ggplot2:ggplot]{ggplot2}} scale function (default \code{\link[bupaR:scale_fill_discrete_bupaR]{scale_color_discrete_bupaR}}):
 Set color scale. Defaults to \code{\link[bupaR:scale_fill_discrete_bupaR]{scale_color_discrete_bupaR}}.}
 }
 \value{
-A \code{\link{ggplot2}} object describing the detailed performance spectrum.
+A \code{\link[ggplot2:ggplot]{ggplot2}} object describing the detailed performance spectrum.
 }
 \description{
 Plots the detailed performance spectrum. The performance spectrum describes the event data in terms of segments, i.e.,

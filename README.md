@@ -31,14 +31,3 @@ You can install the development version of **psmineR** from
 # install.packages("devtools")
 devtools::install_github("bupaverse/psmineR")
 ```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(psmineR)
-#> Warning: replacing previous import 'ggplot2::last_plot' by 'plotly::last_plot'
-#> when loading 'psmineR'
-## basic example code
-```
